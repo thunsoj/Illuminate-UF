@@ -400,7 +400,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #8C5638;
   }
 
   .navbar .dropdown ul {
@@ -1627,11 +1627,11 @@ section {
   padding-right: 10px;
   font-size: 20px;
   line-height: 0;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   border-bottom: 0;
   box-shadow: none;
 }
@@ -1842,7 +1842,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   border: 0;
   padding: 14px 45px;
   color: #fff;
@@ -2560,7 +2560,7 @@ section {
   font-size: 14px;
   background-color: var(--color-primary);
   padding: 50px 0;
-  color: white;
+  color: black;
 }
 
 .footer .footer-info .logo {
