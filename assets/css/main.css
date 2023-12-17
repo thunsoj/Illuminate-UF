@@ -400,7 +400,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #8C5638;
   }
 
   .navbar .dropdown ul {
@@ -499,7 +499,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgba(112, 64, 27, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +545,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: rgba(106, 49, 5, 0.9);
   }
 
   .navbar .dropdown ul,
@@ -555,8 +555,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: var(--color-primary);
+    border: 1px solid #472a06;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -598,7 +598,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(103, 55, 18, 0.9);
     z-index: 9996;
   }
 }
@@ -632,7 +632,7 @@ section {
 .about .call-us p {
   font-size: 28px;
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .about .content ul {
@@ -650,7 +650,7 @@ section {
   font-size: 20px;
   left: 0;
   top: -3px;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .about .content p:last-child {
@@ -1627,11 +1627,11 @@ section {
   padding-right: 10px;
   font-size: 20px;
   line-height: 0;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .faq .accordion-button:not(.collapsed) {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   border-bottom: 0;
   box-shadow: none;
 }
@@ -1720,7 +1720,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: var(--color-secondary);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1842,7 +1842,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   border: 0;
   padding: 14px 45px;
   color: #fff;
@@ -1995,7 +1995,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #7c480b;
 }
 
 .hero .icon-box:hover .title a,
@@ -2560,7 +2560,7 @@ section {
   font-size: 14px;
   background-color: var(--color-primary);
   padding: 50px 0;
-  color: white;
+  color: black;
 }
 
 .footer .footer-info .logo {
