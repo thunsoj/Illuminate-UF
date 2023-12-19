@@ -64,11 +64,11 @@
       </a>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#hero">Hem</a></li>
+          <li><a href="#about">Om oss</a></li>
+          <li><a href="#portfolio">Produkter</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Beställ</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -117,8 +117,8 @@
 
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-geo-alt"></i></div>
-              <h4 class="title"><a href="#concact" class="stretched-link">Kontakt</a></h4>
+              <div class="icon"><i class="bi bi-cart"></i></div>
+              <h4 class="title"><a href="#concact" class="stretched-link">Beställ</a></h4>
             </div>
           </div><!--End Icon Box -->
 
@@ -403,8 +403,17 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Kontakt</h2>
-          <p>Fyll gära i formuläret för att kontakta oss. Skriv antal paket, namn och mail så får du snart bekräftelse och ett swisch nummer från oss. Eller så kan du ringa/smsa eller skriva ett mail direkt.</p>
+          <h2>Beställ</h2>
+          <p>Fyll gära i formuläret för att kontakta oss och be om att få göra en beställning. Du får då snart ett svar med instruktioner hur du kan betala och bekräftelse på att vi fått ditt mail från en anställd. </p>
+        </div>
+
+        <div class="price-section">
+          <div class="price-container">
+            <h4 class="price-title">Pris per låda: </h4>
+            <h4 class="price-fixed">80kr</h4>
+          </div>
+          <p>En låda innehåller 8st tänkdkottar. Det kostar alltså 10kr per kotte.</p>
+          <p class="obs">OBS!! Att fylla i formuläret innebär inte att du gjort någon beställning utan du får först kontakt från en anställd där du får bekräfta att dina uppgifter stämmer, det går att avbryta.</p>
         </div>
 
         <div class="row gx-lg-0 gy-4">
@@ -431,26 +440,30 @@
 
           <div class="col-lg-8">
             <form action="https://formspree.io/f/mrgnzkal" method="post" role="form" class="php-email-form">
+              <p id="price">Nuvarande pris: 0kr</p>
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Namn" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="number" class="form-control" name="amount" id="amount" min="1" max="5" placeholder="Antal lådor" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Ämne" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Meddelande" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Ditt mail har skickats, tack!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Skicka</button></div>
             </form>
           </div><!-- End Contact Form -->
 

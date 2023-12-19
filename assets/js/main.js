@@ -290,4 +290,17 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+  function updatePrice() {
+    var amount = document.getElementById('amount').value;
+    var pricePerBox = 80; // base price per box
+    var totalPrice = amount * pricePerBox;
+    document.getElementById('price').innerText = 'Nuvarande pris: ' + totalPrice + ' kr';
+  }
+
+  // Event listener for changes in the amount input
+  document.getElementById('amount').addEventListener('input', updatePrice);
+
+  // Update the price on page load
+  document.addEventListener('DOMContentLoaded', updatePrice);
+
 });

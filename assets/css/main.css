@@ -2703,3 +2703,25 @@ section {
 .topbar .contact-info i span {
     color: #000000; /* Black color */
 }
+
+.price-section {
+  margin-bottom: 20px;
+}
+
+.price-container {
+  display: flex;
+
+}
+
+.price-title{
+  margin-right: 10px;
+}
+
+.price-fixed{
+  display: flex;
+  color: #0ea75f;
+}
+
+.obs{
+  color: red;
+}
