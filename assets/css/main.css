@@ -112,12 +112,12 @@ section {
 .breadcrumbs .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-secondary);
 }
 
 .breadcrumbs .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.56);
 }
 
 .breadcrumbs nav {
@@ -137,7 +137,7 @@ section {
 }
 
 .breadcrumbs nav ol a {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   transition: 0.3s;
 }
 
